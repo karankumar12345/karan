@@ -72,70 +72,78 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "LMS",
+    des: "A personal portfolio website featuring a diverse Interview Experience section, designed to share insights and experiences to help job seekers prepare for interviews. It also showcases your expertise in various web technologies.",
+    img: "/Screenshot 2024-12-04 202653.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://learning-bac.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "AcePrep",
+    des: "An AI-driven mock interview platform that provides tailored simulations for technical and development interviews, featuring multiple question formats and a seamless user experience",
+    img: "/Screenshot 2024-11-13 181906.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://aceprepkaran-lucx.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Nextjs basic Project",
+    des: "The Next.js Music Project is a sleek and interactive music app built with Next.js, offering a smooth audio streaming experience. Users can easily browse, play, and manage music tracks with a clean and minimalistic de",
+    img: "/Screenshot 2024-12-05 223315.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://music-6zx3.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Btech Burger Wala",
+    des: "A unique project developed as part of a BTech course, simulating an online food ordering system for a burger shop. The platform enables users to customize their orders, choose from a variety of burger options, and complete their purchase through an easy-to-use interface",
+    img: "/Screenshot 2024-12-05 223401.png",
+    iconLists: [ "/tail.svg", "/three.svg", "/gsap.svg"],
+    link: "https://food-web-wine.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "SocialMedia Platform ",
+    des: ": A social media platform built with Next.js, providing users with a space to create profiles, post content, and interact with others through likes and comments. It integrates real-time updates and features a sleek, responsive design to enhance user engagement",
+    img: "/Screenshot 2024-12-05 223622.png",
+    iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://socialmedia-backend-eta.vercel.app/",
   },
 ];
-
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Karan was a fantastic experience. His creativity and technical expertise transformed our ideas into a seamless user experience. Karan's passion for development is evident in every project he takes on. If you're looking to build a modern, scalable web solution, Karan is the developer you need.",
+    name: "Karan kumar",
+    title: "AcePrep",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Karan's work exceeded all expectations. He was attentive, proactive, and brought a level of expertise that truly elevated our project. His ability to understand user needs and deliver innovative solutions makes him a standout developer. I highly recommend him for any web development projects.",
+    name: "Karan kumar",
+    title: "LMS",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Karan was an absolute pleasure. He is a problem solver with a keen eye for detail, delivering high-quality work on time. His enthusiasm for development is contagious, and his dedication to delivering exceptional results was evident throughout our project.",
+    name: "Karan kumar",
+    title: "AcePrep",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Karan's professionalism and technical ability made him a standout contributor to our project. His deep understanding of Next.js and user-centric design were invaluable. If you want a developer who brings both skill and passion to the table, Karan is your go-to person.",
+    name: "Karan kumar",
+    title: "LMS",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Karan is an exceptional developer who truly cares about the quality of his work. His attention to detail and ability to implement complex features with ease made him an essential part of our team. I look forward to working with him again in the future.",
+    name: "karan kumar",
+    title: "Aceprep",
   },
 ];
+
 
 export const companies = [
   {
@@ -169,35 +177,41 @@ export const companies = [
     nameImg: "/dockerName.svg",
   },
 ];
-
 export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+ {
+    id: 5,
+    title: "LMS - Learning Management System",
+    desc: "Built an LMS platform that enables seamless course creation, student management, and progress tracking.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/Screenshot 2024-12-04 202653.png",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    id: 6,
+    title: "AcePrep - AI-Powered Mock Interviews",
+    desc: "Developed an AI-driven mock interview platform with DSA MCQs, coding challenges, and personalized feedback.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/Screenshot 2024-11-13 181906.png",
+  },
+  {
+    id: 7,
+    title: "Next.js Music Project",
+    desc: "Created a music streaming app with Next.js, offering a smooth experience to browse, play, and manage music tracks.",
+    className: "md:col-span-2",
+    thumbnail: "/Screenshot 2024-12-05 223315.png",
+  },
+  {
+    id: 8,
+    title: "Social Media Platform",
+    desc: "Built a social media platform using Next.js where users can create profiles, post content, and interact with others.",
+    className: "md:col-span-2",
+    thumbnail: "/Screenshot 2024-12-05 223401.png",
+  },
+  {
+    id: 9,
+    title: "BTech Burger Wala",
+    desc: "Developed an online food ordering system for a burger shop, allowing users to customize and purchase burgers online.",
+    className: "md:col-span-2",
+    thumbnail: "/Screenshot 2024-12-05 223622.png",
   },
 ];
 
@@ -205,13 +219,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/karankumar12345"
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+ 
   {
     id: 3,
     img: "/link.svg",
+      link:"https://www.linkedin.com/in/karan-kumar-823190256/"
   },
 ];
