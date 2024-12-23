@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "LMS",
-    des: "A personal portfolio website featuring a diverse Interview Experience section, designed to share insights and experiences to help job seekers prepare for interviews. It also showcases your expertise in various web technologies.",
+    des: "Created a platform for creating courses and lessons where users can share resources, reply to discussions, and manageassignments and quizzesAdded article creation functionality to share educational content.Added functionality for creating and sharing interview experiences and content",
     img: "/Screenshot 2024-12-04 202653.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://learning-bac.vercel.app/",
@@ -105,10 +105,18 @@ export const projects = [
   {
     id: 5,
     title: "SocialMedia Platform ",
-    des: ": A social media platform built with Next.js, providing users with a space to create profiles, post content, and interact with others through likes and comments. It integrates real-time updates and features a sleek, responsive design to enhance user engagement",
+    des: ": A social media platform built with Reactjs, providing users with a space to create profiles, post content, and interact with others through likes and comments. It integrates real-time updates and features a sleek, responsive design to enhance user engagement",
     img: "/Screenshot 2024-12-05 223622.png",
     iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://socialmedia-backend-eta.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Mentorship Platform ",
+    des: ":Built a mentorship platform connecting mentees and mentors",
+    img: "/image.png",
+    iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://mentorship-platform-client.vercel.app/",
   },
 ];
 export const testimonials = [
