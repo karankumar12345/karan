@@ -75,7 +75,7 @@ export const projects = [
     title: "LMS",
     des: "Created a platform for creating courses and lessons where users can share resources, reply to discussions, and manageassignments and quizzesAdded article creation functionality to share educational content.Added functionality for creating and sharing interview experiences and content",
     img: "/Screenshot 2024-12-04 202653.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png", "/tail.svg", "/ts.svg", "https://www.svgrepo.com/download/303360/nodejs-logo.svg","https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg"],
     link: "https://learning-bac.vercel.app/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "AcePrep",
     des: "An AI-driven mock interview platform that provides tailored simulations for technical and development interviews, featuring multiple question formats and a seamless user experience",
     img: "/Screenshot 2024-11-13 181906.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVPcn2X0h1-vxJouERlTT9qUVKdrEZIXO9hQ&s"],
     link: "https://aceprepkaran-lucx.vercel.app/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Nextjs basic Project",
     des: "The Next.js Music Project is a sleek and interactive music app built with Next.js, offering a smooth audio streaming experience. Users can easily browse, play, and manage music tracks with a clean and minimalistic de",
     img: "/Screenshot 2024-12-05 223315.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTgwCaR9UXbSqSf2sBjmtZk6LTr6HAXnaNtg&s", ],
     link: "https://music-6zx3.vercel.app/",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Btech Burger Wala",
     des: "A unique project developed as part of a BTech course, simulating an online food ordering system for a burger shop. The platform enables users to customize their orders, choose from a variety of burger options, and complete their purchase through an easy-to-use interface",
     img: "/Screenshot 2024-12-05 223401.png",
-    iconLists: [ "/tail.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [  "/tail.svg", "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", "https://static-00.iconduck.com/assets.00/redux-icon-512x486-1n8k02rk.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPQrVFvoSObvpalOkOe7l24pzWpnY9BctpHg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXf-xZMRVO-B6xuN1L9kM39lVwRbVSdHYSA&s"],
     link: "https://food-web-wine.vercel.app/",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     title: "SocialMedia Platform ",
     des: ": A social media platform built with Reactjs, providing users with a space to create profiles, post content, and interact with others through likes and comments. It integrates real-time updates and features a sleek, responsive design to enhance user engagement",
     img: "/Screenshot 2024-12-05 223622.png",
-    iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [ "/tail.svg", "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", "https://static-00.iconduck.com/assets.00/redux-icon-512x486-1n8k02rk.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPQrVFvoSObvpalOkOe7l24pzWpnY9BctpHg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXf-xZMRVO-B6xuN1L9kM39lVwRbVSdHYSA&s"],
     link: "https://socialmedia-backend-eta.vercel.app/",
   },
   {
@@ -115,8 +115,16 @@ export const projects = [
     title: "Mentorship Platform ",
     des: ":Built a mentorship platform connecting mentees and mentors",
     img: "/image.png",
-    iconLists: [ "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [  "/tail.svg", "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", "https://static-00.iconduck.com/assets.00/redux-icon-512x486-1n8k02rk.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPQrVFvoSObvpalOkOe7l24pzWpnY9BctpHg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXf-xZMRVO-B6xuN1L9kM39lVwRbVSdHYSA&s"],
     link: "https://mentorship-platform-client.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Expense Manager Project – A Real-Life Solution for Group Expense Management! ",
+    des: "Managing shared expenses can often be a hassle, especially when living with roommates, planning trips with friends, or collaborating on team projects. Tracking who paid for what, splitting bills fairly, and ensuring transparency can become confusing and stressful. I faced these challenges personally while sharing a living space, which inspired me to build an efficient solution — Expense Manager.",
+    img: "/Screenshot 2025-01-12 193613.png",
+    iconLists: [ "/tail.svg", "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", "/app.svg","https://static-00.iconduck.com/assets.00/redux-icon-512x486-1n8k02rk.png"],
+    link: "https://expense-manager-kohl-omega.vercel.app/",
   },
 ];
 export const testimonials = [
@@ -220,6 +228,13 @@ export const workExperience = [
     desc: "Developed an online food ordering system for a burger shop, allowing users to customize and purchase burgers online.",
     className: "md:col-span-2",
     thumbnail: "/Screenshot 2024-12-05 223622.png",
+  },
+  {
+    id: 10,
+    title: "Expenses Manager",
+    desc: "Managing shared expenses can often be a hassle, especially when living with roommates, planning trips with friends, or collaborating on team projects. Tracking who paid for what, splitting bills fairly, and ensuring transparency can become confusing and stressful. I faced these challenges personally while sharing a living space, which inspired me to build an efficient solution — Expense Manager.",
+    className: "md:col-span-2",
+    thumbnail: "/Screenshot 2025-01-12 193613.png",
   },
 ];
 
